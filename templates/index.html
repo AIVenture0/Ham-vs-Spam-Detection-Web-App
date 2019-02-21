@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Spam vs Ham Detection </title>
+	<!-- Add the css file  -->
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<body style="background-image: url({{url_for('static',filename='tech.png')}});">
+<!-- <body> -->
+	<header>
+		<div class="container">
+		<div id="brandname" style="text-align: center;">
+			Machine Learning App with Flask
+		</div>
+		<h2 style="text-align: center; color: red;">Spam Detector For SMS Messages</h2>
+		
+	</div>
+	</header>
+
+	<div class="ml-container">
+
+		<form action="{{ url_for('predict')}}" method="POST" style="text-align: center;">
+		<h1 style="color: white">Enter Your Message Here</h1>
+
+		<textarea name="message" rows="8" cols="50"></textarea>
+		<br/>
+
+		<input type="submit" class="btn btn-lg btn-success " value="predict">
+		
+	</form>
+		
+	</div>
+
+	
+	
+
+</body>
+</html>
