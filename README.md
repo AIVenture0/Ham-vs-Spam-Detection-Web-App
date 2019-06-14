@@ -1,7 +1,7 @@
 # Ham-vs-Spam-Detection 
 How to use the machine learning for industrial purpose.
 Let’s build a spam |ham  classifier program in python which can tell whether a given message is spam or ham !
-Create a Flask Web-app and integrating it with Machine leanring to differentiate between Ham vs Spam 
+Create a Flask Web-app and integrating it with Machine learning to differentiate between Ham vs Spam 
 
 ![](https://cdn-images-1.medium.com/max/1600/1*hsyCZOYoGrX6BJsj4Lgrhg.png)
 
