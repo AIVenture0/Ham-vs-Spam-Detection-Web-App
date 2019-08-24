@@ -18,9 +18,9 @@ __Quick Start__: [View](https://github.com/AIVenture0/Sentiment-Analysis-Using-D
 Natural Language Processing (NLP)
 ![](https://cdn-images-1.medium.com/max/800/0*cVoraxFg3UORfGxM.png)
 is the field of Artificial Intelligence concerned with the processing and understanding of human language. Since its inception during the 1950s, machine understanding of language has played a pivotal role in translation, topic modeling, document indexing, information retrieval, and extraction.
-- First install packages using pip according to the requirements.txt file from a local directory?
- - activate your virtualenv
- - run:  pip install -r requirements.txt in your shell
+- ```First install packages using pip according to the requirements.txt file from a local directory?```
+ - ```activate your virtualenv```
+ - ```run:  pip install -r requirements.txt in your shell```
  
 ## Dependencies 
 * Ml Algorithms
