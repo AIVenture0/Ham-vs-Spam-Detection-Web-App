@@ -7,6 +7,13 @@ Create a Flask Web-app and integrating it with Machine learning to differentiate
 
 <!-- <img src="../master/Images/ham vs spam 1.png" alt="Img1"/> -->
 
+
+<p align="center"> 
+<img src="https://www.justicebrd.com/static/images/fast.png" width='258px' height='258px'>
+</p>
+
+__Quick Start__: [View](https://github.com/AIVenture0/Sentiment-Analysis-Using-Deep-Learning/blob/master/Keras%2BDeep%20Learning%20Cookbook%20sentiment%20analysis.ipynb) a static version of the notebook in the comfort of your own web browser
+
 ## Getting Started
 Natural Language Processing (NLP)
 ![](https://cdn-images-1.medium.com/max/800/0*cVoraxFg3UORfGxM.png)
