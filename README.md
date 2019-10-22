@@ -34,14 +34,14 @@ is the field of Artificial Intelligence concerned with the processing and unders
 To run locally, it is assumed that you have python installed on your system
 
 Development Guide
-Create a virtual environment. virtualenv venv
+* Create a virtual environment. virtualenv venv
 
-Activate virtual environment via \venv\scripts\activate
-Install the requirements. pip install -r requirements.txt
+* Activate virtual environment via \venv\scripts\activate
+* Install the requirements. pip install -r requirements.txt
 
 Get ready with all files like html css javascript
 
-Run the server. python manage.py runserver
+* Run the server. python manage.py runserver
 
 ### Web-app 
 Web-app creted by using flask, Html, Css ,JavaScript, Bootstrap look like - Once you enter text in the given input box and hit predict button , It predict weather the given text is ham or spam.
